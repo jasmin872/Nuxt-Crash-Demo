@@ -1,15 +1,15 @@
 <template>
     <div>
-            my items page
+        my items page
     </div>
 </template>
 
 <script>
     export default {
-        
+        layout: "no-nav"
     }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
