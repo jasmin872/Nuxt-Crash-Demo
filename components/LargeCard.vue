@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <NuxtLink :to="`/products/${cards.id}`" class="card">
         <img :src="require(`@/assets/images/${cards.image || 'fe1.jpg' }`)" class="image" alt="fc">
         <h3 class="header">
             {{cards.title}}
@@ -7,7 +7,7 @@
         <p class="snippet">
             {{cards.snippet}}
         </p>
-    </div>
+    </NuxtLink>
 </template>
 
 <script>
@@ -32,6 +32,10 @@
     .header {
         font-size: 1.15rem;
         margin-top: 0.4rem;
+    }
+    .header {
+        color: black;
+        text-decoration: none;
     }
     .snippet {
         color: grey

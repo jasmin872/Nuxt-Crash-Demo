@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         hello i am route /products/id
     </div>
 </template>
