@@ -17,7 +17,7 @@
 
 <style scoped>
 .Hero {
-        height: 50vh;
+        /* height: 50vh; */
         position: relative;
         display: flex;
         padding: 5rem 0;
@@ -61,7 +61,7 @@
     }
     @media (max-width: 500px) {
         .Hero {
-            height: 40vh;
+            /* height: 40vh; */
         }
     }
 
