@@ -8,10 +8,10 @@
       <b-navbar-nav class="ml-auto">
         <b-navbar-nav>
         <NuxtLink to="/products" class="nav-link"
-            >Products <span class="sr-only">(current)</span></NuxtLink
+            >Products</NuxtLink
           >
         <NuxtLink to="/my-items" class="nav-link"
-            >My Items <span class="sr-only">(current)</span></NuxtLink
+            >My Items</NuxtLink
           >
       </b-navbar-nav>
       </b-navbar-nav>
